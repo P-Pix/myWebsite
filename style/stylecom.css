@@ -1,4 +1,67 @@
-main
+/******body******/
+
+body
 {
-    color : blue; 
+    font-family: sans-serif;
+}
+
+/******header******/
+
+header
+{
+    background-color: white;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 33% 67%;
+    border-bottom: 1px solid black;
+}
+
+header > ul
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header > ul > li
+{
+    text-align: center;
+}
+
+header > a
+{
+    text-align: center;
+}
+
+/******nav******/
+
+/******main******/
+
+/******footer******/
+
+/******a******/
+
+a
+{
+    text-decoration: none;
+    color : black;
+}
+
+a:hover
+{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+/******ul******/
+
+ul
+{
+    list-style-type: none;
+}
+
+/******li******/
+
+li
+{
+    text-align: left;
 }
