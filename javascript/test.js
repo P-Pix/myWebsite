@@ -1,4 +1,4 @@
-function test()
+function test(liste)
 {
-    console.log("oui");
+    console.log(liste);
 }
