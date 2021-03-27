@@ -10,13 +10,14 @@ body
 header
 {
     background-color: white;
+    width: 100%;
     position: fixed;
     display: grid;
     grid-template-columns: 33% 67%;
     border-bottom: 1px solid black;
 }
 
-header > ul
+header ul
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,12 +25,59 @@ header > ul
 
 header > ul > li
 {
+    float: none;
+    width: 100%;
     text-align: center;
 }
 
 header > a
 {
     text-align: center;
+}
+
+header img
+{
+    width: 1em;
+}
+
+header ul::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header > ul > li ul
+{
+    display: none;
+    box-shadow: 0em 1em 2em #CCC;
+    position: absolute;
+    width: 33%;
+    z-index: 1;
+}
+
+header ul a:hover
+{
+    background-color: #e5e5e5;
+}
+
+header > ul li:hover .first
+{
+    display: block;
+}
+
+header .first li ul
+{
+    display: none;
+    box-shadow: 0em 1em 2em #CCC;
+    position: relative;
+    width: 33%;
+    z-index: 2;
+}
+
+header .premier li:hover .second
+{
+    display: block;
 }
 
 /******nav******/
@@ -65,3 +113,8 @@ li
 {
     text-align: left;
 }
+
+/******class******/
+
+
+/******#******/
