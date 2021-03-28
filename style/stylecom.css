@@ -9,6 +9,7 @@ body
 
 header
 {
+    margin-top: -1em;
     background-color: white;
     width: 100%;
     position: fixed;
@@ -20,24 +21,33 @@ header
 header ul
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 80%;
 }
 
 header > ul > li
 {
-    float: none;
-    width: 100%;
-    text-align: center;
+    float: left;
+	text-align: center;
+	position: relative;
 }
 
-header > a
+header a
 {
     text-align: center;
+    display: block;
+	color: black;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px
 }
 
 header img
 {
     width: 1em;
+}
+
+header > a:hover
+{
+    border-bottom: none;
 }
 
 header ul::after
@@ -47,44 +57,32 @@ header ul::after
     clear: both;
 }
 
-header > ul > li ul
+header >  ul li:hover .first
 {
-    display: none;
-    box-shadow: 0em 1em 2em #CCC;
-    position: absolute;
-    width: 33%;
-    z-index: 1;
+	display: block;
 }
-
-header ul a:hover
-{
-    background-color: #e5e5e5;
-}
-
-header > ul li:hover .first
-{
-    display: block;
-}
-
-header .first li ul
-{
-    display: none;
-    box-shadow: 0em 1em 2em #CCC;
-    position: relative;
-    width: 33%;
-    z-index: 2;
-}
-
-header .premier li:hover .second
-{
-    display: block;
-}
-
 /******nav******/
+
+nav
+{
+    padding-top: 2em;
+}
+
+nav > ul
+{
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+}
 
 /******main******/
 
 /******footer******/
+
+footer > ul
+{
+    display: grid;
+    grid-template-columns: repeat(3, 10%);
+}
 
 /******a******/
 
@@ -114,7 +112,81 @@ li
     text-align: left;
 }
 
+/******section*****/
+
+section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/******article*******/
+
+article
+{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0.5em 0.5em 0.5em;
+}
+
+/******p******/
+
+p
+{
+    margin: 10px;
+    text-align: justify;
+}
+
 /******class******/
 
 
 /******#******/
+
+.first
+{
+    display: none;
+	box-shadow: 0em 1em 2em #CCC;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.first li:hover .second
+{
+    display: block;
+}
+
+.second
+{
+	display: none;
+	box-shadow: 0px 10px 20px #CCC;
+	background-color: white;
+	position: relative;
+	width: 80%;
+	z-index: 2;
+}
+
+.second li
+{
+	float: none;
+	width: 100%;
+	text-align: left;
+}
+
+.second a
+{
+	padding: 0.25em;
+	border-bottom: none;
+}
+
+.second a:hover
+{
+	background-color: #E5E5E5;
+}
+
+#CV a:hover
+{
+    border-bottom: none;
+}
