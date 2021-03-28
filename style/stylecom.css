@@ -68,10 +68,38 @@ nav
     padding-top: 2em;
 }
 
-nav > ul
+nav > ul 
 {
     display: grid;
-    grid-template-columns: repeat(2, 20%);
+}
+
+@media (max-width: 1000px)
+{
+    nav > ul 
+    {
+        grid-template-columns: repeat(2, 20%);
+    }
+}
+
+@media (min-width: 1000px)
+{
+    nav > ul 
+    {
+        grid-template-columns: repeat(2, 10%);
+    }
+}
+
+nav ul a
+{
+    text-align: center;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+nav ul a:hover
+{
+    border: 1px solid red;
 }
 
 /******main******/
@@ -128,6 +156,12 @@ article
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0.5em 0.5em 0.5em;
+}
+/******h3******/
+
+h3
+{
+    text-align: center;
 }
 
 /******p******/
