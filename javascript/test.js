@@ -1,4 +1,21 @@
 function test(liste)
 {
-    console.log(liste);
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
+    console.log("pourquoi tu regardes dans la console ?");
 }
