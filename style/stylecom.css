@@ -4,12 +4,12 @@
 {
     nav
     {
-        grid-template-columns: repeat(2, 20%);
+        grid-template-columns: repeat(5, 20%);
     }
 
     footer > ul
     {
-        grid-template-columns: repeat(3, 20%);
+        grid-template-columns: repeat(5, 20%);
     }
 }
 
@@ -17,12 +17,12 @@
 {
     nav
     {
-        grid-template-columns: repeat(2, 10%);
+        grid-template-columns: repeat(10, 10%);
     }
 
     footer > ul
     {
-        grid-template-columns: repeat(3, 10%);
+        grid-template-columns: repeat(10, 10%);
     }
 }
 
