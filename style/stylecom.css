@@ -1,3 +1,31 @@
+/******@media******/
+
+@media (max-width: 1000px)
+{
+    nav
+    {
+        grid-template-columns: repeat(2, 20%);
+    }
+
+    footer > ul
+    {
+        grid-template-columns: repeat(3, 20%);
+    }
+}
+
+@media (min-width: 1000px)
+{
+    nav
+    {
+        grid-template-columns: repeat(2, 10%);
+    }
+
+    footer > ul
+    {
+        grid-template-columns: repeat(3, 10%);
+    }
+}
+
 /******body******/
 
 body
@@ -9,13 +37,15 @@ body
 
 header
 {
-    margin-top: -1em;
+    margin-top: -1.33em;
+    margin-left: -1em;
     background-color: white;
-    width: 100%;
+    width: 110%;
     position: fixed;
     display: grid;
     grid-template-columns: 33% 67%;
     border-bottom: 1px solid black;
+    z-index: 1;
 }
 
 header ul
@@ -61,35 +91,17 @@ header >  ul li:hover .first
 {
 	display: block;
 }
+
+/******div******/
+
 /******nav******/
 
-nav
-{
-    padding-top: 2em;
-}
-
-nav > ul 
+nav 
 {
     display: grid;
 }
 
-@media (max-width: 1000px)
-{
-    nav > ul 
-    {
-        grid-template-columns: repeat(2, 20%);
-    }
-}
-
-@media (min-width: 1000px)
-{
-    nav > ul 
-    {
-        grid-template-columns: repeat(2, 10%);
-    }
-}
-
-nav ul a
+nav a
 {
     text-align: center;
     margin: 5px;
@@ -97,19 +109,19 @@ nav ul a
     border-radius: 5px;
 }
 
-nav ul a:hover
+nav a:hover
 {
     border: 1px solid red;
 }
 
 /******main******/
 
+
 /******footer******/
 
 footer > ul
 {
     display: grid;
-    grid-template-columns: repeat(3, 10%);
 }
 
 /******a******/
@@ -157,6 +169,14 @@ article
     border-radius: 10px;
     box-shadow: 0.5em 0.5em 0.5em;
 }
+
+/******h1******/
+
+h1
+{
+    text-align: center;
+}
+
 /******h3******/
 
 h3
@@ -168,7 +188,7 @@ h3
 
 p
 {
-    margin: 10px;
+    margin: 15px;
     text-align: justify;
 }
 
