@@ -15,7 +15,7 @@
 #up #face
 {
     filter: blur(-8px);
-    border-radius: 1000px;
+    border-radius: 500px;
     border: 5px solid black;
 }
 
