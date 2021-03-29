@@ -44,7 +44,7 @@ header
     position: fixed;
     display: grid;
     grid-template-columns: 33% 67%;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
     z-index: 1;
 }
 
