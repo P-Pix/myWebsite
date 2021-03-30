@@ -96,23 +96,6 @@ header >  ul li:hover .first
 
 /******nav******/
 
-nav 
-{
-    display: grid;
-}
-
-nav a
-{
-    text-align: center;
-    margin: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-nav a:hover
-{
-    border: 1px solid red;
-}
 
 /******main******/
 

@@ -1,0 +1,4 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {1}oui}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}oui oui}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}suck}{3}{section.2}%
