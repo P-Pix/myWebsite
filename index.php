@@ -10,12 +10,12 @@
     </head>
     <body>
         <header>
-            <a href = "index.html">Home</a>
+            <a href = "index.php">Home</a>
             <ul>
                 <li>
                     <img src = "images/c++.png" alt = "C++">
                     <ul class = "first">
-                        <li><a href = "suite/ascii_image.html">Ascii Image</a></li>
+                        <li><a href = "suite/ascii_image.php">Ascii Image</a></li>
                     </ul>
                 </li>
                 <li>
@@ -26,7 +26,7 @@
                 <li>
                     <img src = "images/python.png" alt = "Python">
                     <ul class = "first">
-                        <li><a href = "suite/sokoban.html">Sokoban</a></li>
+                        <li><a href = "suite/sokoban.php">Sokoban</a></li>
                     </ul>
                 </li>
                 <li>

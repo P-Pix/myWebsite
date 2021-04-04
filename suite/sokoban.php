@@ -9,32 +9,7 @@
     </head>
     <body>
         <header id = "haut">
-            <a href = "../index.html">Home</a>
-            <ul>
-                <li>
-                    <img src = "../images/c++.png" alt = "C++">
-                    <ul class = "first">
-                        <li><a href = "ascii_image.html">Ascii Image</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <img src = "../images/c.png" alt = "C">
-                    <ul class = "first">
-                    </ul>
-                </li>
-                <li>
-                    <img src = "../images/python.png" alt = "Python">
-                    <ul class = "first">
-                        <li><a href = "../suite/sokoban.html">Sokoban</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <img src = "../images/html.png" alt = "HTML">
-                    <ul class = "first">
-                        <li><a href = "#">Site Marvel</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <?php include("../php/menu.php");?>
         </header>
         <nav>
             <a href = "https://github.com/P-Pix/Sokoban" target = blank>Code GitHub</a></li>
