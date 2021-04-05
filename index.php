@@ -6,7 +6,6 @@
         <link rel = "stylesheet" href="style/stylecom.css">
         <link rel = "stylesheet" href="style/styleindex.css">
         <link rel = "icon" href = "images/icon.png">
-        <script type = "text/javascript" src = "javascript/test.js"></script>
     </head>
     <body>
         <header>
@@ -85,9 +84,5 @@
                 <li><a href = "#">Docs de la page</a></li>
             </ul>
         </footer>
-        <script>
-            let imageCPP = document.querySelectorAll("img");
-            test(imageCPP);
-        </script>
     </body>
 </html>
