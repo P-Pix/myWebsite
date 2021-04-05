@@ -81,7 +81,7 @@
             <a href = "#up">Haut de page</a>
             <ul>
                 <li><a href = "#" target = blank>CGU</a></li>
-                <li><a href = "#">Contact</a></li>
+                <li><a href = "suite/contact.php">Contact</a></li>
                 <li><a href = "#">Docs de la page</a></li>
             </ul>
         </footer>

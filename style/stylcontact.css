@@ -1,0 +1,13 @@
+input
+{
+    float: right;
+    width: 100%;
+}
+
+textarea
+{
+    margin-left: 2.5%;
+    font-size: 1rem;
+    width: 95%;
+    height: 30em;
+}
