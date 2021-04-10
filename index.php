@@ -15,6 +15,7 @@
                     <img src = "images/c++.png" alt = "C++">
                     <ul class = "first">
                         <li><a href = "suite/ascii_image.php">Ascii Image</a></li>
+                        <li><a href = "#">Pi Collide</a></li>
                     </ul>
                 </li>
                 <li>
@@ -29,7 +30,7 @@
                     </ul>
                 </li>
                 <li>
-                    <img src = "images/html.png" alt = "HTML">
+                    <img src = "images/html.png" alt = "Web">
                     <ul class = "first">
                         <li><a href = "#">Site Marvel</a></li>
                     </ul>
@@ -58,7 +59,7 @@
                 <article>
                     <h3>Debut de la programmation en solo</h3>
                     <p>
-                        J'ai commencé à codé en apprenend le langage C et C++ sur le site de <a href = "https://openclassrooms.com/fr/" target = blank>OpenClassrooms</a>.
+                        J'ai commencé à codé en apprenend le langage C et C++ sur le site de <a href = "https://openclassrooms.com/fr/" target = "_blank">OpenClassrooms</a>.
                         En parallèle de la lecture des cours sur ce site je faisais quelques programme de mon côté afin de tester si j'avais bien compris le cours.
                         J'ai ainsi créer mon premier code "complexe" en solitaire, lors de mon année de L1, en C++.
                         Celui-ci s'appelle Ascii Image et sert à transformé une image quelconque en Image ascii.

@@ -4,6 +4,7 @@
         <img src = "../images/c++.png" alt = "C++">
         <ul class = "first">
             <li><a href = "ascii_image.php">Ascii Image</a></li>
+            <li><a href = "#">Pi Collide</a></li>
         </ul>
     </li>
     <li>
@@ -18,7 +19,7 @@
         </ul>
     </li>
     <li>
-        <img src = "../images/html.png" alt = "HTML">
+        <img src = "../images/html.png" alt = "Web">
         <ul class = "first">
             <li><a href = "#">Site Marvel</a></li>
         </ul>

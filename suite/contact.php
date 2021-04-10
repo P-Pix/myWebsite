@@ -16,18 +16,14 @@
         </nav>
         <main>
             <form action = "../php/send.php" method = "POST">
-                <p>Expéditeur : <input type = "text" name = "name"/></p>
-                <p>Adresse mail expediteur : <input type = "text" name = "mail_ex"></p>
-                <p>Sujet : <input type = "text" name = "sujet"></p>
-                <p><textarea name = "message"></textarea></p>
-                <input type = "submit"/>
+                <input type = "text" name = "name" placeholder = "Expediteur"/>
+                <br>
+                <input type = "text" name = "mail_ex" placeholder = "Adresse mail expediteur">
+                <br>
+                <input type = "text" name = "sujet" placeholder = "Sujet">
+                <textarea name = "message" placeholder = "Mail"></textarea>
+                <input type = "submit" value = "Envoyer" id = "send"/>
             </form>
         </main>
-        <footer>
-            <ul>
-                <li><a href = "#" target = blank>CGU</a></li>
-                <li><a href = "#" target = blank>Docs de la page</a></li>
-            </ul>
-        </footer>
     </body>
 </html>
