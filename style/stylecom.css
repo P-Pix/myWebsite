@@ -51,7 +51,6 @@ header
 header ul
 {
     display: grid;
-    grid-template-columns: repeat(4, 20%);
 }
 
 header > ul > li
@@ -91,11 +90,6 @@ header ul::after
     content: "";
     display: table;
     clear: both;
-}
-
-header >  ul li:hover .first
-{
-	display: block;
 }
 
 /******div******/
@@ -203,5 +197,20 @@ p
     border-bottom: none;
 }
 
+.second
+{
+    display: none;
+	box-shadow: 0em 1em 2em #CCC;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.second a:hover
+{
+	background-color: #E5E5E5;
+    border-bottom: none;
+}
 
 /******#******/

@@ -5,32 +5,35 @@
         <title>Home - Guillaume L.</title>
         <link rel = "stylesheet" href="style/stylecom.css">
         <link rel = "stylesheet" href="style/styleindex.css">
-        <link rel = "icon" href = "images/icon.png">
+        <script type = "text/javascript" src="javascript/menu.js"></script>
+        <link rel = "icon" src = "images/icon.png">
     </head>
     <body>
         <header>
             <a href = "index.php">Home</a>
             <ul>
-                <li>
-                    <img src = "images/c++.png" alt = "C++">
+                <li>C++
                     <ul class = "first">
                         <li><a href = "suite/ascii_image.php">Ascii Image</a></li>
                         <li><a href = "#">Pi Collide</a></li>
                     </ul>
                 </li>
-                <li>
-                    <img src = "images/c.png" alt = "C">
+                <li>C
                     <ul class = "first">
+                        <li><a href = "#">oioio</a></li>
                     </ul>
                 </li>
-                <li>
-                    <img src = "images/python.png" alt = "Python">
+                <li>C#
+                    <ul class = "first">
+                        <li><a href = "#">oioio</a></li>
+                    </ul>
+                </li>
+                <li>Python
                     <ul class = "first">
                         <li><a href = "suite/sokoban.php">Sokoban</a></li>
                     </ul>
                 </li>
-                <li>
-                    <img src = "images/html.png" alt = "Web">
+                <li>Web
                     <ul class = "first">
                         <li><a href = "#">Site Marvel</a></li>
                     </ul>
@@ -85,5 +88,6 @@
                 <li><a href = "#">Docs de la page</a></li>
             </ul>
         </footer>
+        <?php include("php/javascript.php")?>
     </body>
 </html>

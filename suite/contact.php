@@ -9,9 +9,7 @@
         <link rel = "icon" href = "../images/icon.png">
     </head>
     <body>
-        <header id = "haut">
-            <?php include("../php/menu.php");?>
-        </header>
+        <?php include("../php/menu.php");?>
         <nav>
         </nav>
         <main>

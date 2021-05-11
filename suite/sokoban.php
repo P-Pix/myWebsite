@@ -8,9 +8,7 @@
         <link rel = "icon" href = "../images/icon.png">
     </head>
     <body>
-        <header id = "haut">
-            <?php include("../php/menu.php");?>
-        </header>
+        <?php include("../php/menu.php");?>
         <nav>
             <a href = "https://github.com/P-Pix/Sokoban" target = blank>Code GitHub</a></li>
             <a href = "../pdf/Sokoban.pdf" target = blank>Docs du sokoban</a>
@@ -37,8 +35,6 @@
                 </article>
             </section>
         </main>
-        <footer>
-            <?php include("../php/footer.php") ?>
-        </footer>
+        <?php include("../php/footer.php") ?>
     </body>
 </html>
