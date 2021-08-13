@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang = "fr-FR">
     <head>
-        <meta  charset = "UTF-8" />
         <title>Contact</title>
-        <link rel = "stylesheet" href = "../style/stylecom.css">
-        <link rel = "stylesheet" href = "../style/stylother.css">
+        <?php include("../php/head.php") ?>
         <link rel = "stylesheet" href = "../style/stylcontact.css"/>
-        <link rel = "icon" href = "../images/icon.png">
     </head>
     <body>
         <?php include("../php/menu.php");?>
@@ -23,5 +20,6 @@
                 <input type = "submit" value = "Envoyer" id = "send"/>
             </form>
         </main>
+        <?php include("../php/javascript.php"); ?>
     </body>
 </html>

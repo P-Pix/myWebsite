@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang = "fr-FR">
     <head>
-        <meta  charset = "UTF-8" />
         <title>Python - Sokoban</title>
-        <link rel = "stylesheet" href = "../style/stylecom.css">
-        <link rel = "stylesheet" href = "../style/stylother.css">
-        <link rel = "icon" href = "../images/icon.png">
+        <?php include("../php/head.php") ?>
     </head>
     <body>
         <?php include("../php/menu.php");?>
@@ -36,5 +33,6 @@
             </section>
         </main>
         <?php include("../php/footer.php") ?>
+        <?php include("../php/javascript.php") ?>
     </body>
 </html>

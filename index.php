@@ -3,9 +3,13 @@
     <head>
         <meta  charset = "UTF-8" />
         <title>Home - Guillaume L.</title>
-        <link rel = "stylesheet" href="style/stylecom.css">
-        <link rel = "stylesheet" href="style/styleindex.css">
-        <script type = "text/javascript" src="javascript/menu.js"></script>
+        <link rel = "stylesheet" href = "style/stylecom.css">
+        <link rel = "stylesheet" href = "style/styleindex.css">
+        <link rel = "stylesheet" href = "style/stylemenu.css">
+        <link rel = "stylesheet" href = "style/stylenav.css">
+
+        <script type = "text/javascript" src = "javascript/menu.js"></script>
+        
         <link rel = "icon" src = "images/icon.png">
     </head>
     <body>
@@ -20,11 +24,11 @@
                 </li>
                 <li>C
                     <ul class = "first">
-                        <li><a href = "#">oioio</a></li>
+                        <li><a href = "suite/printf.php">Printf</a></li>
                     </ul>
                 </li>
                 <li>C#
-                    <ul class = "first">
+                    <ul class = "first">+
                         <li><a href = "#">oioio</a></li>
                     </ul>
                 </li>

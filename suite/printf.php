@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang = "fr-FR">
     <head>
-        <title>Python - Sokoban</title>
+        <title>C - Printf</title>
         <?php include("../php/head.php") ?>
     </head>
     <body>
         <?php include("../php/menu.php");?>
         <nav>
-            <a href = "https://github.com/P-Pix/ascii_image" target = blank>Code GitHub</a></li>
-            <a href = "#" target = blank>Docs du Ascii Image</a>
+            <a href = "https://github.com/P-Pix/printf" target = blank>Code GitHub</a></li>
+            <a href = "../pdf/Sokoban.pdf" target = blank>Docs du Printf</a>
         </nav>
         <main>
             <section>
@@ -24,7 +24,7 @@
                 </article>
             </section>
         </main>
-        <?php include("../php/footer.php") ?>
-        <?php include("../php/javascript.php") ?>
+        <?php include("../php/footer.php"); ?>
+        <?php include("../php/javascript.php"); ?>
     </body>
 </html>

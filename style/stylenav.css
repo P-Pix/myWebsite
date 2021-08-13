@@ -1,7 +1,7 @@
 nav 
 {
     display: grid;
-    margin-top: 5em;
+    grid-template-columns: repeat(10, 10%);
 }
 
 nav a
@@ -15,9 +15,4 @@ nav a
 nav a:hover
 {
     border: 1px solid red;
-}
-
-header
-{
-    margin-top: -5em;
 }

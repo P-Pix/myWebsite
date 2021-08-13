@@ -8,5 +8,5 @@
         listelangage[x].addEventListener("click", menuAppear);
     }
 
-    listelang[0].style.gridTemplateColumns = "repeat(" + listelangage.length + ", " + 87.5 / listelangage.length + "%)";
+    setInterval(mediaMenuBar, 100);
 </script>
