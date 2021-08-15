@@ -13,19 +13,20 @@
         <link rel = "icon" src = "images/icon.png">
     </head>
     <body>
+        <div id = "haut"></div>
         <header>
             <img src = "images/bx-menu.svg" alt = "menu" id = "menu">
             <a href = "index.php">Home</a>
             <ul>
+                <li>C
+                    <ul class = "first">
+                        <li><a href = "suite/printf.php">Printf</a></li>
+                    </ul>
+                </li>
                 <li>C++
                     <ul class = "first">
                         <li><a href = "suite/ascii_image.php">Ascii Image</a></li>
                         <li><a href = "#">Pi Collide</a></li>
-                    </ul>
-                </li>
-                <li>C
-                    <ul class = "first">
-                        <li><a href = "suite/printf.php">Printf</a></li>
                     </ul>
                 </li>
                 <li>C#
@@ -46,16 +47,17 @@
                 </li>
             </ul>
         </header>
+        <nav>
+            <a href = "#haut"><img src = "images/bx-chevrons-up.svg" alt = "up"> Haut</a>
+            <a href = "#historique"> Historique</a>
+            <a href = "#etude"><img src = "images/bx-book.svg" alt = "book"> Etude</a>
+        </nav>
         <img src = "images/cliché.jpg" alt = "fond" id = "fond">
         <div id = "up">
             <h1 id = "name">Guillaume LEMONNIER</h1>
             <h3>Etudient Informatique</h3>
             <img src = "images/icon.png" alt = "Ma tronche" id = "face">
         </div>
-        <nav>
-            <a href = "#historique">Historique</a>
-            <a href = "#etude"><img src = "images/bx-book.svg" alt = "book"> Etude</a>
-        </nav>
         <main>
             <h2 id = "historique">Avant les études</h2>
             <section>

@@ -2,37 +2,65 @@
 
 function menuAppear(event)
 {
-    console.log(event.target.children);
-    if(event.target.children[0].style.display == "block")
+    if(event.target.children[0].style.display == "grid")
     {
-        event.target.children[0].style.display = "none";
+        displayNone(event.target.children[0]);
     }
     else
     {
-        event.target.children[0].style.display = "block";
+        displayGrid(event.target.children[0]);
     }
 }
 
 function mediaMenuBar()
 {
     let windowwidth = window.innerWidth;
-    let nav = document.querySelector("header > ul");
+    let header = document.querySelector("header > ul");
     let footer = document.querySelector("footer > ul");
     let widthnav = parseInt((windowwidth / 100) / 2);
-    console.log("width nav = ", widthnav, "with window width = ", windowwidth);
+    let menunav = document.querySelector("nav");
     if(windowwidth < 2000)
     {
-        nav.style.gridTemplateColumns = "repeat(" + widthnav + ", " + 87.5 / widthnav + "%)";
-        footer.style.gridTemplateColumns = "repeat(5, 20%)";
+        header.style.gridTemplateColumns = "repeat(" + widthnav + ", " + 87.5 / widthnav + "%)";
+        footer.style.gridTemplateColumns = "repeat(" + widthnav + ", " + 87.5 / widthnav + "%)";
+        if(header.children.length / widthnav == parseInt(header.children.length / widthnav))
+        {
+            menunav.style.marginTop = parseInt(header.children.length / widthnav) * 2 + "em";
+        }
+        else 
+        {
+            menunav.style.marginTop = parseInt(header.children.length / widthnav + 1) * 1.66 + "em";
+        }
     }
     else
     {
-        nav.style.gridTemplateColumns = "repeat(10, 10%)";
+        header.style.gridTemplateColumns = "repeat(10, 10%)";
         footer.style.gridTemplateColumns = "repeat(10, 10%)";
+        menunav.style.marginTop = "2em";
     }
 }
 
 function navigationMenu(event)
 {
-    console.log(event);
+    let navigation = document.querySelector("nav");
+    if(event.target.src.includes("bx-menu.svg"))
+    {
+        event.target.src = "../images/bx-x.svg";
+        displayGrid(navigation);
+    }
+    else
+    {
+        event.target.src = "../images/bx-menu.svg";
+        displayNone(navigation);
+    }
+}
+
+function displayGrid(element)
+{
+    element.style.display = "grid";
+}
+
+function displayNone(element)
+{
+    element.style.display = "none";
 }
