@@ -9,6 +9,7 @@
         <nav>
             <a href = "https://github.com/P-Pix/printf" target = blank>Code GitHub</a></li>
             <a href = "../pdf/Sokoban.pdf" target = blank>Docs du Printf</a>
+            <?php include("../php/nav.php");?>
         </nav>
         <main>
             <section>

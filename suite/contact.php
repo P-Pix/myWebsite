@@ -7,8 +7,6 @@
     </head>
     <body>
         <?php include("../php/menu.php");?>
-        <nav>
-        </nav>
         <main>
             <form action = "../php/send.php" method = "POST">
                 <input type = "text" name = "name" placeholder = "Expediteur"/>

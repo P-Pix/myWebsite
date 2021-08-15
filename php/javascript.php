@@ -7,6 +7,8 @@
     {
         listelangage[x].addEventListener("click", menuAppear);
     }
+    let menuicon = document.querySelector("#menu");
+    menuicon.addEventListener("click", navigationMenu);
 
     setInterval(mediaMenuBar, 100);
 </script>

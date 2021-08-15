@@ -31,3 +31,8 @@ function mediaMenuBar()
         footer.style.gridTemplateColumns = "repeat(10, 10%)";
     }
 }
+
+function navigationMenu(event)
+{
+    console.log(event);
+}

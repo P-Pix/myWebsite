@@ -1,18 +1,19 @@
 nav 
 {
     display: grid;
-    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: 10%;
+    border-right: 1px solid black;
+    margin-right: 90%;
+    background-color: white;
 }
 
 nav a
 {
     text-align: center;
     margin: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
 }
 
 nav a:hover
 {
-    border: 1px solid red;
+    background-color: #cdcdcd ;
 }

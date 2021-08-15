@@ -29,7 +29,7 @@ header
     width: 110%;
     position: fixed;
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 5% 10% 85%;
     border-bottom: 3px solid black;
     z-index: 1;
 }
@@ -53,4 +53,15 @@ header a
 	color: black;
 	border-bottom: 2px solid transparent;
 	padding: 10px 0px
+}
+
+#menu
+{
+    margin-left: 50%;
+    margin-top: 12.5%;
+}
+
+header a:hover
+{
+    color: red;
 }

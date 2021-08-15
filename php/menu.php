@@ -1,4 +1,5 @@
 <header>
+    <img src = "../images/bx-menu.svg" alt = "menu" id = "menu">
     <a href = "../index.php">Home</a>
     <ul>
         <li>C++
@@ -25,6 +26,7 @@
         <li>Web
             <ul class = "first">
                 <li><a href = "#">Site Marvel</a></li>
+                <li><a href = "#">My Website</a></li>
             </ul>
         </li>
     </ul>
