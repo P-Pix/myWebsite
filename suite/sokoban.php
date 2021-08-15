@@ -6,12 +6,14 @@
     </head>
     <body>
         <div id = "haut"></div>
-        <?php include("../php/menu.php");?>
-        <nav>
-            <a href = "https://github.com/P-Pix/Sokoban" target = blank><img src = "../images/bxl-github.svg" alt = "github"> Code GitHub</a></li>
-            <a href = "../pdf/Sokoban.pdf" target = blank><img src = "../images/bxs-file-pdf.svg" alt = "pdf"> Docs du sokoban</a>
-            <?php include("../php/nav.php");?>
-        </nav>
+        <header>
+            <?php include("../php/menu.php");?>
+            <nav>
+                <a href = "https://github.com/P-Pix/Sokoban" target = blank id = "nav">Code GitHub</a></li>
+                <a href = "../pdf/Sokoban.pdf" target = blank id = "nav">Docs du sokoban</a>
+                <?php include("../php/nav.php");?>
+            </nav>
+        </header>
         <img src = "../images/SokoPy.png" alt = "Sokoban Jeu">
         <main>
             <section>

@@ -1,7 +1,7 @@
 <script>
     "using strict"
-    let listelangage = document.querySelectorAll("header > ul > li");
-    let listelang = document.querySelectorAll("header > ul");
+    let listelangage = document.querySelectorAll("header div > ul > li");
+    let listelang = document.querySelectorAll("header div > ul");
 
     for(let x = 0; x < listelangage.length; x ++)
     {

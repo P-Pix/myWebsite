@@ -5,11 +5,13 @@
         <?php include("../php/head.php") ?>
     </head>
     <body>
-        <?php include("../php/menu.php");?>
-        <nav>
-            <a href = "https://github.com/P-Pix/ascii_image" target = blank>Code GitHub</a></li>
-            <a href = "#" target = blank>Docs du Ascii Image</a>
-        </nav>
+        <header>
+            <?php include("../php/menu.php");?>
+            <nav>
+                <a href = "https://github.com/P-Pix/ascii_image" target = blank>Code GitHub</a></li>
+                <a href = "#" target = blank>Docs du Ascii Image</a>
+            </nav>
+        </header>
         <main>
             <section>
                 <article>

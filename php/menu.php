@@ -1,4 +1,4 @@
-<header>
+<div>
     <img src = "../images/bx-menu.svg" alt = "menu" id = "menu">
     <a href = "../index.php">Home</a>
     <ul>
@@ -30,4 +30,4 @@
             </ul>
         </li>
     </ul>
-</header>
+</div>
