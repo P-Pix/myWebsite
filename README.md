@@ -2,4 +2,4 @@
 
 ## Home Page
 
-![alt text](images/homepage.png)
+![Home_Page](images/homepage.png)
