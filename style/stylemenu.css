@@ -9,7 +9,7 @@ header img
     width: 1.5em;
 }
 
-header > a:hover
+header div > a:hover
 {
     border-bottom: none;
 }
@@ -23,15 +23,20 @@ header ul::after
 
 header
 {
-    margin-top: -1.33em;
+    padding-top: 1em;
+    margin-top: -2.5em;
     margin-left: -1em;
     background-color: white;
     width: 110%;
     position: fixed;
+    z-index: 1;
+    border-bottom: 3px solid black;
+}
+
+header div
+{
     display: grid;
     grid-template-columns: 5% 10% 85%;
-    border-bottom: 3px solid black;
-    z-index: 1;
 }
 
 header ul
@@ -39,7 +44,7 @@ header ul
     display: grid;
 }
 
-header > ul > li
+header div > ul > li
 {
     float: left;
 	text-align: center;
