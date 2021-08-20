@@ -22,7 +22,7 @@ footer > ul
 a
 {
     text-decoration: none;
-    color : black;
+    color: black;
 }
 
 /******ul******/
@@ -31,13 +31,6 @@ ul
 {
     list-style-type: none;
     padding: 0;
-}
-
-/******li******/
-
-li
-{
-    text-align: left;
 }
 
 /******section*****/
@@ -81,38 +74,4 @@ p
 {
     margin: 15px;
     text-align: justify;
-}
-
-/******class******/
-
-.first
-{
-    display: none;
-	box-shadow: 0em 1em 2em #CCC;
-	background-color: white;
-	position: absolute;
-	width: 100%;
-	z-index: 1;
-}
-
-.first a:hover
-{
-	background-color: #E5E5E5;
-    border-bottom: none;
-}
-
-.second
-{
-    display: none;
-	box-shadow: 0em 1em 2em #CCC;
-	background-color: white;
-	position: absolute;
-	width: 100%;
-	z-index: 1;
-}
-
-.second a:hover
-{
-	background-color: #E5E5E5;
-    border-bottom: none;
 }

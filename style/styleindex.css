@@ -8,7 +8,7 @@
     filter: blur(8px);
     position: absolute;
     z-index: -1;
-    height: 66%;
+    height: 40em;
     width: 100%;
 }
 

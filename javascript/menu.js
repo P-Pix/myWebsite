@@ -37,12 +37,24 @@ function navigationMenu(event)
     {
         event.target.src = "../images/bx-x.svg";
         displayGrid(navigation);
+        openNavigationBar(navigation);
     }
     else if(event.target.src.includes("bx-x.svg"))
     {
         event.target.src = "../images/bx-menu.svg";
         displayNone(navigation);
+        closeNavigationBar(navigation);
     }
+}
+
+function openNavigationBar(navigation)
+{
+    
+}
+
+function closeNavigationBar(navigation)
+{
+
 }
 
 function displayGrid(element)

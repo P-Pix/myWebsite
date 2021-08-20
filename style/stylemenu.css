@@ -57,7 +57,7 @@ header a
     display: block;
 	color: black;
 	border-bottom: 2px solid transparent;
-	padding: 10px 0px
+	margin: 10px 20px;
 }
 
 #menu
@@ -69,4 +69,14 @@ header a
 header a:hover
 {
     color: red;
+}
+
+.first
+{
+    display: none;
+	box-shadow: 0em 1em 2em #CCC;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
 }
