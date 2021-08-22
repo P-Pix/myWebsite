@@ -37,7 +37,11 @@
                 </article>
             </section>
         </main>
-        <?php include("../php/footer.php") ?>
-        <?php include("../php/javascript.php") ?>
+        <footer>
+            <?php include("../php/footer.php") ?>
+        </footer>
+        <script>
+            <?php include("../php/javascript.php"); ?>
+        </script>
     </body>
 </html>

@@ -1,4 +1,16 @@
-"using strict"
+function main()
+{
+    let listelangage = document.querySelectorAll("header div > ul > li");
+
+    for(let x = 0; x < listelangage.length; x ++)
+    {
+        listelangage[x].addEventListener("click", menuAppear);
+    }
+    let menuicon = document.querySelector("#menu");
+    menuicon.addEventListener("click", navigationMenu);
+
+    setInterval(mediaMenuBar, 100);
+}
 
 function menuAppear(event)
 {
@@ -16,7 +28,7 @@ function mediaMenuBar()
 {
     let windowwidth = window.innerWidth;
     let header = document.querySelector("header div > ul");
-    let footer = document.querySelector("footer > ul");
+    let footer = document.querySelector("footer");
     let widthnav = parseInt((windowwidth / 100) / 2);
     if(windowwidth < 2000)
     {

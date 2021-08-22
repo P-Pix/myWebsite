@@ -52,6 +52,7 @@
                 <a href = "#haut" id = "nav">Haut de Page</a>
                 <a href = "#historique" id = "nav">Historique</a>
                 <a href = "#etude" id = "nav">Etudes</a>
+                <a href = "suite/contact.php" id = "nav">Contact</a>
             </nav>
         </header>
         <img src = "images/cliché.jpg" alt = "fond" id = "fond">
@@ -114,13 +115,12 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
             </section>
         </main>
         <footer>
-            <a href = "#up">Haut de page</a>
-            <ul>
-                <li><a href = "#" target = blank>CGU</a></li>
-                <li><a href = "suite/contact.php">Contact</a></li>
-                <li><a href = "#">Docs de la page</a></li>
-            </ul>
+            <a href = "#" target = blank>CGU</a>
+            <a href = "suite/contact.php">Contact</a>
+            <a href = "#">Doc</a>
         </footer>
-        <?php include("php/javascript.php")?>
+        <script>
+            <?php include("php/javascript.php")?>
+        </script>
     </body>
 </html>

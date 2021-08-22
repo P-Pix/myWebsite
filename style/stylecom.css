@@ -12,9 +12,16 @@ body
 
 /******footer******/
 
-footer > ul
+footer
 {
     display: grid;
+    text-align: center;
+}
+
+footer a
+{
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 /******a******/
@@ -23,6 +30,10 @@ a
 {
     text-decoration: none;
     color: black;
+}
+a:hover
+{
+    color: red;
 }
 
 /******ul******/

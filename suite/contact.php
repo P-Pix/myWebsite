@@ -4,6 +4,7 @@
         <title>Contact</title>
         <?php include("../php/head.php") ?>
         <link rel = "stylesheet" href = "../style/stylcontact.css"/>
+        <script type = "text/javascript" src = "../javascript/send.js"></script>
     </head>
     <body>
         <div id = "haut"></div>
@@ -43,17 +44,21 @@
             </div>
         </header>
         <main>
-            <form action = "../php/send.php" method = "POST">
-                <input type = "text" name = "name" placeholder = "Expediteur"/>
-                <br>
-                <input type = "text" name = "mail_ex" placeholder = "Adresse mail expediteur">
-                <br>
-                <input type = "text" name = "sujet" placeholder = "Sujet">
-                <textarea name = "message" placeholder = "Mail"></textarea>
-                <input type = "submit" value = "Envoyer" id = "send"/>
-            </form>
+            <input type = "text" id = "name" placeholder = "Nom / Prenom / Entreprise"/>
+            <br>
+            <input type = "text" id = "mail_ex" placeholder = "Adresse mail expediteur">
+            <br>
+            <input type = "text" id = "sujet" placeholder = "Sujet">
+            <textarea id = "message" placeholder = "Mail"></textarea>
+            <input type = "submit" value = "Envoyer" id = "send"/>
         </main>
-        <?php include("../php/footer.php"); ?>
-        <?php include("../php/javascript.php"); ?>
+        <footer>
+            <a href = "#" target = blank>CGU</a>
+            <a href = "#" target = blank>Doc</a>
+        </footer>
+        <script>
+            <?php include("../php/javascript.php"); ?>
+            mainContact();
+        </script>
     </body>
 </html>
