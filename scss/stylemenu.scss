@@ -1,9 +1,11 @@
+$colorWhite: white;
+
 header
 {
     padding-top: 1em;
     margin-top: -2.5em;
     margin-left: -1em;
-    background-color: white;
+    background-color: $colorWhite;
     width: 110%;
     position: fixed;
     z-index: 1;
@@ -36,16 +38,13 @@ header
                 text-align: left;
                 padding-left: 1em;
             }
-        }
-        ul::after
-        {
-            content: "";
-            display: table;
-            clear: both;   
-        }
-        > ul
-        {
-            > li
+            &::after
+            {
+                content: "";
+                display: table;
+                clear: both;   
+            }
+            li
             {
                 float: left;
                 text-align: center;
@@ -65,7 +64,7 @@ header
 {
     display: none;
 	box-shadow: 0em 1em 2em #CCC;
-	background-color: white;
+	background-color: $colorWhite;
 	position: absolute;
 	width: 100%;
 	z-index: 1;

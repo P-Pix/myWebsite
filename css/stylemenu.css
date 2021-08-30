@@ -25,14 +25,14 @@ header {
       header div ul a {
         text-align: left;
         padding-left: 1em; }
-    header div ul::after {
-      content: "";
-      display: table;
-      clear: both; }
-    header div > ul > li {
-      float: left;
-      text-align: center;
-      position: relative; }
+      header div ul::after {
+        content: "";
+        display: table;
+        clear: both; }
+      header div ul li {
+        float: left;
+        text-align: center;
+        position: relative; }
 
 #menu {
   margin-left: 50%;

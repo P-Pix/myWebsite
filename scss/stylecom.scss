@@ -18,10 +18,10 @@ a
 {
     text-decoration: none;
     color: black;
-}
-a:hover
-{
-    color: red;
+    &:hover
+    {
+        color: red;
+    }
 }
 
 ul

@@ -3,7 +3,8 @@ nav {
   grid-template-columns: repeat(10, 10%);
   border-top: 1px solid #6e6e6e; }
   nav a {
-    margin-left: 15%;
-    margin-right: 15%; }
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%; }
 
 /*# sourceMappingURL=stylenav.css.map */
