@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MACA;EACI,UAAU,EAAE,OAAO",
+"sources": ["../scss/styleheaderbis.scss"],
+"names": [],
+"file": "styleheaderbis.css"
+}

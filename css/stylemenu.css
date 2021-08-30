@@ -1,0 +1,49 @@
+header {
+  padding-top: 1em;
+  margin-top: -2.5em;
+  margin-left: -1em;
+  background-color: white;
+  width: 110%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 3px solid black; }
+  header div {
+    display: grid;
+    grid-template-columns: 5% 10% 85%; }
+    header div img {
+      width: 1.5em; }
+    header div a {
+      text-align: center;
+      display: block;
+      color: black;
+      border-bottom: 2px solid transparent;
+      margin: 10px 20px; }
+    header div > a:hover {
+      border-bottom: none; }
+    header div ul {
+      display: grid; }
+      header div ul a {
+        text-align: left;
+        padding-left: 1em; }
+    header div ul::after {
+      content: "";
+      display: table;
+      clear: both; }
+    header div > ul > li {
+      float: left;
+      text-align: center;
+      position: relative; }
+
+#menu {
+  margin-left: 50%;
+  margin-top: 12.5%; }
+
+.first {
+  display: none;
+  box-shadow: 0em 1em 2em #CCC;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1; }
+
+/*# sourceMappingURL=stylemenu.css.map */

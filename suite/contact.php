@@ -4,6 +4,7 @@
         <title>Contact</title>
         <?php include("../php/head.php") ?>
         <link rel = "stylesheet" href = "../style/stylcontact.css"/>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script type = "text/javascript" src = "../javascript/send.js"></script>
     </head>
     <body>

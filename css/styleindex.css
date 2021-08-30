@@ -1,0 +1,19 @@
+#up {
+  text-align: center; }
+
+#fond {
+  filter: blur(8px);
+  position: absolute;
+  z-index: -1;
+  height: 39em;
+  width: 100%; }
+
+#up #face {
+  filter: blur(-8px);
+  border-radius: 500px;
+  border: 5px solid black; }
+
+#up #name {
+  padding-top: 3em; }
+
+/*# sourceMappingURL=styleindex.css.map */

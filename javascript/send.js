@@ -1,5 +1,3 @@
-const mandrill = require("node-mandrill");
-
 function mainContact()
 {
     const button = document.querySelector("#send");
@@ -27,16 +25,39 @@ function send(event)
     else
     {
         // Send mail
+
         /*
+        const mandrill = require('mandrill');
         mandrill('/message/send',
         {
-            {mailexpeditor, nameexpeditor},
+            mailexpeditor, 
+            nameexpeditor,
             mymail,
             sujet,
             mail,
         });
+        let opts = {"type":"messages","call":"send","message":{"html": "<h1>example html</h1>", "text": "example text", "subject": "example subject", "from_email": "wes@werxltd.com", "from_name": "example from_name", "to":[{"email": mymail, "name": "Wes Widner"}],"headers":{"...": "..."},"track_opens":true,"track_clicks":true,"auto_text":true,"url_strip_qs":true,"tags":["test","example","sample"],"google_analytics_domains":["werxltd.com"],"google_analytics_campaign":["..."],"metadata":["..."]}};
+        
+        mandrill.call(opts, function(data){
+            console.log(data);
+        });
         */
-        alert("Tranks to send me this message. You will be redirect to the home page");
-        window.location.href = "../index.php";
+
+        Email.send(
+        {
+            /*
+            Host: "smtp.gmail.com",
+            Username: "sender@email_address.com",
+            Password: "Enter your password",
+            */
+            To: mymail,
+            From: mailexpeditor,
+            Subject: sujet,
+            Body: mail,
+        }).then(function () 
+        {
+            alert("Tranks to send me this message. You will be redirect to the home page");
+            window.location.href = "../index.php";
+        });
     }
 }

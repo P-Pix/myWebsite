@@ -3,10 +3,10 @@
     <head>
         <meta  charset = "UTF-8" />
         <title>Home - Guillaume L.</title>
-        <link rel = "stylesheet" href = "style/stylecom.css">
-        <link rel = "stylesheet" href = "style/styleindex.css">
-        <link rel = "stylesheet" href = "style/stylemenu.css">
-        <link rel = "stylesheet" href = "style/stylenav.css">
+        <link rel = "stylesheet" href = "css/stylecom.css">
+        <link rel = "stylesheet" href = "css/styleindex.css">
+        <link rel = "stylesheet" href = "css/stylemenu.css">
+        <link rel = "stylesheet" href = "css/stylenav.css">
 
         <script type = "text/javascript" src = "javascript/menu.js"></script>
         

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IACA;EACI,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;;AAGrB,KACA;EACI,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;EACb,WAAW,EAAE,GAAG;;AAGpB,QACA;EACI,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;;AAGhB,KACA;EACI,KAAK,EAAE,GAAG",
+"sources": ["../scss/stylcontact.scss"],
+"names": [],
+"file": "stylcontact.css"
+}

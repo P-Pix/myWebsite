@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GACA;EACI,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;EACtC,UAAU,EAAE,iBAA4B;EACxC,KACA;IACI,WAAW,EAAE,GAAG;IAChB,YAAY,EAAE,GAAG",
+"sources": ["../scss/stylenav.scss"],
+"names": [],
+"file": "stylenav.css"
+}
