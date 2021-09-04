@@ -1,3 +1,7 @@
+<!--
+    Open the pallet (Ctrl + Shift + P)
+    Select "Simple Browser: Show"
+!-->
 <!DOCTYPE html>
 <html lang = "fr-FR">
     <head>
@@ -32,7 +36,13 @@
                     </li>
                     <li>C#
                         <ul class = "first">
-                            <li><a href = "#">oioio</a></li>
+                            <li><a href = "#">1.0.0</a></li>
+                        </ul>
+                    </li>
+                    <li>Java
+                        <ul class = "first">
+                            <li><a href = "#">1.0.0</a></li>
+                            <li><a href = "#">2.0.0</a></li>
                         </ul>
                     </li>
                     <li>Python
@@ -52,6 +62,7 @@
                 <a href = "#haut" id = "nav">Haut de Page</a>
                 <a href = "#historique" id = "nav">Historique</a>
                 <a href = "#etude" id = "nav">Etudes</a>
+                <a href = "#language" id = "nav">Language</a>
                 <a href = "suite/contact.php" id = "nav">Contact</a>
             </nav>
         </header>
@@ -111,6 +122,35 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent in nisi libero. Maecenas molestie velit ac mi sodales cursus. Mauris sodales nisi odio. Morbi in gravida leo, quis semper nibh. Cras magna orci, euismod ut magna id, placerat tempus lectus. Vestibulum quis tristique libero. Vestibulum luctus, sapien et posuere accumsan, lorem ex finibus erat, in gravida est nisl sed ligula. Ut vulputate at ipsum ac posuere. Cras dignissim ullamcorper mi, id convallis nulla. 
                     </p>
+                </article>
+            </section>
+            <hr>
+            <h2 id = "language">Langages</h2>
+            <section>
+                <article>
+                    <h3>Web</h3>
+                    <h4>Maitrisé</h4>
+                    <p>CSS: 3</p>
+                    <p>HTML: 5</p>
+                    <p>JavaScript: 8</p>
+                    <p>SCSS</p>
+                    <h4>Connu</h4>
+                    <p>PHP: 7</p>
+                    <h4>En cours</h4>
+                    <p>SQL</p>
+                </article>
+                <article>
+                    <h3>Programmation</h3>
+                    <h4>Maitrisé</h4>
+                    <p>C</p>
+                    <p>C++: 17</p>
+                    <p>Python: 3</p>
+                    <h4>Connu</h4>
+                    <p>Java</p>
+                    <h4>En cours</h4>
+                    <p>Unreal Engine: 4</p>
+                    <p>C#</p>
+                    <p>Unity</p>
                 </article>
             </section>
         </main>

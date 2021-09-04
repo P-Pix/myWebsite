@@ -2,13 +2,15 @@ body
 {
     font-family: sans-serif;
 }
-
 footer
 {
+    border-top: 1px solid black;
     display: grid;
     text-align: center;
+    margin-top: 0.5em;
     a
     {
+        margin-top: 1em;
         margin-left: 25%;
         margin-right: 25%;
     }
@@ -49,10 +51,15 @@ h1
     text-align: center;
 }
 
-h3
+h3, h4
 {
     margin: 5px;
     text-align: center;
+}
+
+h3
+{
+    margin-bottom: 1em;
 }
 
 p

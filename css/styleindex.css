@@ -14,4 +14,10 @@
   #up #name {
     padding-top: 3em; }
 
+#language + section p {
+  text-align: center; }
+
+h4 {
+  border-bottom: 1px solid black; }
+
 /*# sourceMappingURL=styleindex.css.map */

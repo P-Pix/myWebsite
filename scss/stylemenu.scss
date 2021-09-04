@@ -1,11 +1,11 @@
-$colorWhite: white;
+$backgroundHeader: white;
 
 header
 {
     padding-top: 1em;
     margin-top: -2.5em;
     margin-left: -1em;
-    background-color: $colorWhite;
+    background-color: $backgroundHeader;
     width: 110%;
     position: fixed;
     z-index: 1;
@@ -14,42 +14,50 @@ header
     {
         display: grid;
         grid-template-columns: 5% 10% 85%;
-        img
+    }
+    img
+    {
+        width: 1.5em;
+        &:hover
         {
-            width: 1.5em;
+            cursor: pointer;
         }
+    }
+    a
+    {
+        text-align: center;
+        display: block;
+        color: black;
+        border-bottom: 2px solid transparent;
+        margin: 10px 20px;
+    }
+    > a:hover
+    {
+        border-bottom: none;
+    }
+    ul
+    {
+        display: grid;
         a
         {
-            text-align: center;
-            display: block;
-            color: black;
-            border-bottom: 2px solid transparent;
-            margin: 10px 20px;
+            text-align: left;
+            padding-left: 1em;
         }
-        > a:hover
+        &::after
         {
-            border-bottom: none;
+            content: "";
+            display: table;
+            clear: both;   
         }
-        ul
+    }
+    li
+    {
+        float: left;
+        text-align: center;
+        position: relative;
+        &:hover
         {
-            display: grid;
-            a
-            {
-                text-align: left;
-                padding-left: 1em;
-            }
-            &::after
-            {
-                content: "";
-                display: table;
-                clear: both;   
-            }
-            li
-            {
-                float: left;
-                text-align: center;
-                position: relative;
-            }
+            cursor: pointer;
         }
     }
 }
@@ -64,7 +72,7 @@ header
 {
     display: none;
 	box-shadow: 0em 1em 2em #CCC;
-	background-color: $colorWhite;
+	background-color: $backgroundHeader;
 	position: absolute;
 	width: 100%;
 	z-index: 1;

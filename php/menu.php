@@ -15,7 +15,13 @@
         </li>
         <li>C#
             <ul class = "first">
-                <li><a href = "#">oioio</a></li>
+                <li><a href = "#">1.0.0</a></li>
+            </ul>
+        </li>
+        <li>Java
+            <ul class = "first">
+                <li><a href = "#">1.0.0</a></li>
+                <li><a href = "#">2.0.0</a></li>
             </ul>
         </li>
         <li>Python
