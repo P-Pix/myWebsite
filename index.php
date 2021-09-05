@@ -138,6 +138,9 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
                     <p>PHP: 7</p>
                     <h4>En cours</h4>
                     <p>SQL</p>
+                    <p>NodeJS</p>
+                    <p>ReactJS</p>
+                    <p>TypeScript</p>
                 </article>
                 <article>
                     <h3>Programmation</h3>
@@ -151,6 +154,9 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
                     <p>Unreal Engine: 4</p>
                     <p>C#</p>
                     <p>Unity</p>
+                    <p>OpenGL (C++)</p>
+                    <p>Vulkan (C++)</p>
+                    <p>SDL2 (C++)</p>
                 </article>
             </section>
         </main>
