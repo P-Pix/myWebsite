@@ -9,7 +9,21 @@ function main()
     let menuicon = document.querySelector("#menu");
     menuicon.addEventListener("click", navigationMenu);
 
-    setInterval(mediaMenuBar, 100);
+    setInterval(phoneOrComputer, 100);
+}
+
+function phoneOrComputer()
+{
+    let header = window.innerHeight;
+    let width = window.innerWidth;
+    if(width > header)
+    {
+        mediaMenuBarComputer()
+    }
+    else
+    {
+        mediaMenuBarPhone()
+    }
 }
 
 function menuAppear(event)
@@ -24,22 +38,31 @@ function menuAppear(event)
     }
 }
 
-function mediaMenuBar()
+function mediaMenuBarComputer()
 {
     let windowwidth = window.innerWidth;
     let header = document.querySelector("header div > ul");
     let footer = document.querySelector("footer");
     let widthnav = parseInt((windowwidth / 100) / 2);
+    let headernav = document.querySelector("header nav");
     if(windowwidth < 2000)
     {
         header.style.gridTemplateColumns = "repeat(" + widthnav + ", " + 87.5 / widthnav + "%)";
         footer.style.gridTemplateColumns = "repeat(" + widthnav + ", " + 87.5 / widthnav + "%)";
+        headernav.style.gridTemplateColumns = "repeat("+ widthnav + ", " + 87.5 / widthnav + "%)";
     }
     else
     {
         header.style.gridTemplateColumns = "repeat(10, 10%)";
         footer.style.gridTemplateColumns = "repeat(10, 10%)";
+        headernav.style.gridTemplateColumns = "repeat(10, 10%)";
     }
+}
+
+function mediaMenuBarPhone()
+{
+    let headernav = document.querySelector("header nav");
+    headernav.style.gridTemplateColumns = "1fr 1fr";
 }
 
 function navigationMenu(event)

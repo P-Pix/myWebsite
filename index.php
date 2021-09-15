@@ -147,16 +147,24 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
                     <h4>Maitrisé</h4>
                     <p>C</p>
                     <p>C++: 17</p>
+                    <p>Java</p>
                     <p>Python: 3</p>
                     <h4>Connu</h4>
-                    <p>Java</p>
+                    <p>C#</p>
                     <h4>En cours</h4>
                     <p>Unreal Engine: 4</p>
-                    <p>C#</p>
                     <p>Unity</p>
                     <p>OpenGL (C++)</p>
                     <p>Vulkan (C++)</p>
                     <p>SDL2 (C++)</p>
+                </article>
+                <article>
+                    <h3>Soft Skill</h3>
+                    <h4>Maitrisé</h4>
+                    <p>Jet Brain</p>
+                    <p>GitHub</p>
+                    <p>Git</p>
+                    <p>Visual Studio Code</p>
                 </article>
             </section>
         </main>
